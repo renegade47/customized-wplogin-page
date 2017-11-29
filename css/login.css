@@ -1,0 +1,35 @@
+body { 
+	background-color: #ce1126; 
+}
+.login h1 { 
+	height: 77px; 
+	background-image: url(../images/logo.png); 
+	background-repeat: no-repeat; 
+	background-position: center center; 
+	background-size: contain; 
+	margin-bottom: 10px; 
+}
+.login h1 a { 
+	display: none; 
+}
+.wp-core-ui .button-primary { 
+	background: #fcd116; 
+	border: none; 
+	box-shadow: none; 
+	text-shadow: none; 
+	color: #ce1126; 
+}
+
+.wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:focus { 
+	background: #ce1126; 
+	box-shadow: none; 
+	color: #fff; 
+}
+
+.login #backtoblog a, .login #nav a { 
+	color: #fcd116; 
+}
+
+.login #backtoblog a:hover, .login #backtoblog a:focus, .login #nav a:hover, .login #nav a:focus { 
+	color: #fcd116;
+}
